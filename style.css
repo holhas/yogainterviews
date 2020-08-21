@@ -1,0 +1,182 @@
+@font-face {
+    font-family: MuseoSlab;
+    src: url("./assets/Museo_Slab_500.otf") format("opentype");
+}
+
+.logo {
+    background-color: #f5f4fd;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.subtitle {
+    background-color: #7c6391;
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+    font-family: 'MuseoSlab', sans-serif;
+    font-size: larger;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+body {
+    color: #7c6391;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+}
+
+h3 {
+    font-family: 'MuseoSlab', sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+h4 {
+    font-weight: normal;
+}
+
+footer ul {
+    width: 100%;
+    background-color: #f5f4fd;
+    font-family: 'MuseoSlab', sans-serif;
+    text-transform: uppercase;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+footer ul li {
+    float: right;
+    padding-right: 10px;
+}
+
+footer ul li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #7c6391;
+
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+    grid-gap: 20px;
+}
+
+@media (min-width: 1020px) {
+    .cards {
+        grid-template-columns: auto auto;
+    }
+}
+
+.card {
+    padding: 20px;
+    color: #7c6391;
+}
+
+.cardtitle {
+    padding: 20px 0px 20px 0px;
+    font-family: 'MuseoSlab', sans-serif;
+    font-size: large;
+    text-transform: uppercase;
+}
+
+.cardplace {
+    padding: 10px 0px 20px 0px;
+}
+
+.cardgraphic {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cardimage {
+    width: 80%;
+    padding: 0px 20px 0px 0px;
+}
+
+.cardbadge {
+    width: 20%;
+}
+
+.cardimage img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cardbadge img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.interview {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #7c6391;
+}
+
+.interview-col1 {
+    margin: 10px;
+    background-color: white;
+    width: fit-content;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.interview-col2 {
+    margin: 10px;
+    background-color: white;
+}
+
+.interview-col1 img {
+    margin: 10px;
+    width: 100px;
+}
+
+.interview-col2 img {
+    width: 100%;
+}
+
+
+@media (min-width: 1020px) {
+    .interview {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    .interview-col1 {
+        width: 200px;
+        flex-direction: column;
+        text-align: right;
+
+    }
+
+    .interview-col1 img {
+        width: 100px;
+    }
+
+
+}
