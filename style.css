@@ -5,9 +5,7 @@
 
 .logo {
     background-color: #f5f4fd;
-    width: 100%;
-    margin: auto;
-    padding: 10px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -17,8 +15,6 @@
 
 .subtitle {
     background-color: #7c6391;
-    width: 100%;
-    margin: auto;
     padding: 20px;
     font-family: 'MuseoSlab', sans-serif;
     font-size: larger;
@@ -31,6 +27,7 @@ body {
     color: #7c6391;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: left;
+    margin: 0px;
 }
 
 a {
@@ -47,26 +44,31 @@ h4 {
     font-weight: normal;
 }
 
-footer ul {
+footer {
     width: 100%;
     background-color: #f5f4fd;
+    margin-top: 60px;
+}
+
+footer ul {
+    width: auto;
     font-family: 'MuseoSlab', sans-serif;
     text-transform: uppercase;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    padding: 20px 10px;
     overflow: hidden;
 }
 
 footer ul li {
     float: right;
-    padding-right: 10px;
+    margin-right: 10px;
 }
 
 footer ul li a {
     display: block;
     text-align: center;
-    padding: 14px 16px;
+    margin-right: 16px;
+    ;
     text-decoration: none;
     color: #7c6391;
 
