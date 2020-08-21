@@ -33,6 +33,10 @@ body {
     text-align: left;
 }
 
+a {
+    text-decoration: none;
+}
+
 h3 {
     font-family: 'MuseoSlab', sans-serif;
     text-transform: uppercase;
@@ -75,10 +79,11 @@ footer ul li a {
 }
 
 .cards {
+    margin-top: 40px;
     display: grid;
     grid-template-columns: auto;
     justify-content: center;
-    grid-gap: 20px;
+    grid-gap: 60px;
 }
 
 @media (min-width: 1020px) {
@@ -88,7 +93,6 @@ footer ul li a {
 }
 
 .card {
-    padding: 20px;
     color: #7c6391;
 }
 
